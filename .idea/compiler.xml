@@ -12,8 +12,5 @@
         <module name="Spring-Automatically" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Spring-Automatically" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

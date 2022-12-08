@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Spring-Automatically/Spring-Automatically/Spring-Automatically.iml" filepath="$PROJECT_DIR$/Spring-Automatically/Spring-Automatically/Spring-Automatically.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringStudy.iml" filepath="$PROJECT_DIR$/.idea/SpringStudy.iml" />
     </modules>
   </component>
