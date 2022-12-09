@@ -10,6 +10,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-DI-setter" />
+        <module name="Spring-DI-constructor" />
       </profile>
     </annotationProcessing>
   </component>

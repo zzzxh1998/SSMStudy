@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress ALL -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+       <bean id="userDaoImpl" class="com.xiaohu.Dao.Impl.UserDaoImpl"></bean>
+       <bean id="userServiceImpl" class="com.xiaohu.Service.Impl.UserServiceImpl" >
+             <constructor-arg name="iUserDao" ref="userDaoImpl"></constructor-arg>
+       </bean>
+    <!--
+        使用构造函数 依赖注入，<constructor-arg name= 必须传入，service层impl层的实现类中，dao层，接口层的对象名
+        必须一致
+    -->
+
+</beans>

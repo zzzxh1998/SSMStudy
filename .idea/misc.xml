@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/Spring-Automatically/Spring-Automatically/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-Automatically/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-DI-setter/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-DI-constructor/pom.xml" />
       </list>
     </option>
   </component>
