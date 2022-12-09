@@ -1,11 +1,6 @@
 package com.xiaohu;
 
-import com.xiaohu.Dao.IUserDao;
-import com.xiaohu.Entity.User;
 import com.xiaohu.Service.IUserService;
-import com.xiaohu.Service.Impl.UserServiceImpl;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.context.ApplicationContext;
