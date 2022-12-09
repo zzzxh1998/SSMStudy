@@ -3,7 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-       <bean id="UserDao" class="com.xiaohu.Dao.Impl.UserDao"></bean>
-       <bean id="UserDao1" class="com.xiaohu.Dao.Impl.UserDao1"></bean>
+       <bean id="userDaoImpl" class="com.xiaohu.Dao.Impl.UserDaoImpl"></bean>
+       <bean id="userServiceImpl" class="com.xiaohu.Service.Impl.UserServiceImpl" >
+              <property name="iUserDao" ref="userDaoImpl"></property>
+       </bean>
 
 </beans>

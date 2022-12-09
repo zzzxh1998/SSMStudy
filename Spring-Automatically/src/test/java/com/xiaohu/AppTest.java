@@ -1,6 +1,9 @@
 package com.xiaohu;
 
+import com.xiaohu.Dao.IUserDao;
 import com.xiaohu.Entity.User;
+import com.xiaohu.Service.IUserService;
+import com.xiaohu.Service.Impl.UserServiceImpl;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import org.junit.Test;
@@ -20,9 +23,8 @@ public class AppTest {
     @Test
     public void Test1(){
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("bean.xml");
-        Object userDao = applicationContext.getBean("UserDao");
-        System.out.println(userDao);
-
+        IUserService iUserService = (IUserService) applicationContext.getBean("userServiceImpl");
+        iUserService.print();
     }
 
 
