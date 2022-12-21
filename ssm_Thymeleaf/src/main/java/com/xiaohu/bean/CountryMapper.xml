@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--定义为当前的命名空间-->
+<mapper namespace="com.xiaohu.bean.CountryMapper">
+    <select id="getById" parameterType="int" resultType="Country">
+        select * from country where id=#{id}
+    </select>
+
+</mapper>

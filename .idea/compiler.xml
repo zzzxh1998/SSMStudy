@@ -9,10 +9,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-DI-setter" />
+        <module name="SpringAOP" />
+        <module name="ssm-crud" />
+        <module name="ssm_Thymeleaf" />
         <module name="Spring-DI-Automatic_Injection" />
+        <module name="Spring-AOP-All" />
+        <module name="ssm_Demo" />
+        <module name="Spring-DI-setter" />
+        <module name="ssm" />
         <module name="Spring-DI-constructor" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Spring-AOP" target="8" />
+      <module name="Spring-Automatically" target="1.5" />
+      <module name="SpringAOP (1)" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
