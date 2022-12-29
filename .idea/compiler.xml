@@ -13,7 +13,9 @@
         <module name="ssm-crud" />
         <module name="ssm_Thymeleaf" />
         <module name="Spring-DI-Automatic_Injection" />
+        <module name="Spring-Artfiical" />
         <module name="Spring-AOP-All" />
+        <module name="spring-bean_get" />
         <module name="ssm_Demo" />
         <module name="Spring-DI-setter" />
         <module name="ssm" />
@@ -21,9 +23,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Spring-AOP" target="8" />
-      <module name="Spring-Automatically" target="1.5" />
-      <module name="SpringAOP (1)" target="1.7" />
+      <module name="Spring-AOP" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
