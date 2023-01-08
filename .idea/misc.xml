@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Mybatis_generator" />
     <file type="web" url="file://$PROJECT_DIR$/ssm" />
     <file type="web" url="file://$PROJECT_DIR$/ssm-crud" />
     <file type="web" url="file://$PROJECT_DIR$/ssm_Demo" />
@@ -23,6 +24,7 @@
         <option value="$PROJECT_DIR$/ssm_Demo/pom.xml" />
         <option value="$PROJECT_DIR$/ssm-crud/pom.xml" />
         <option value="$PROJECT_DIR$/spring-soundcode/spring-bean_get/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis_generator/pom.xml" />
       </list>
     </option>
   </component>

@@ -11,6 +11,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SpringAOP" />
         <module name="ssm-crud" />
+        <module name="Mybatis_generator" />
         <module name="ssm_Thymeleaf" />
         <module name="Spring-DI-Automatic_Injection" />
         <module name="Spring-Artfiical" />
