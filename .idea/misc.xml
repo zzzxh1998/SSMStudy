@@ -6,6 +6,7 @@
     <file type="web" url="file://$PROJECT_DIR$/ssm" />
     <file type="web" url="file://$PROJECT_DIR$/ssm-crud" />
     <file type="web" url="file://$PROJECT_DIR$/ssm_Demo" />
+    <file type="web" url="file://$PROJECT_DIR$/SSM_mybatis" />
     <file type="web" url="file://$PROJECT_DIR$/ssm_Thymeleaf" />
   </component>
   <component name="MavenProjectsManager">
@@ -22,9 +23,10 @@
         <option value="$PROJECT_DIR$/ssm/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_Thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_Demo/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm-crud/pom.xml" />
         <option value="$PROJECT_DIR$/spring-soundcode/spring-bean_get/pom.xml" />
         <option value="$PROJECT_DIR$/Mybatis_generator/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis_crud/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_mybatis/pom.xml" />
       </list>
     </option>
   </component>

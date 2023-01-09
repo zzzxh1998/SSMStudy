@@ -13,7 +13,7 @@ public class Customer_Service_Test {
         //加载配置文件
         ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
         //获取对象
-        CustomersServiceInterface customers = (CustomersServiceInterface) ac.getBean("accountService");
+        CustomersServiceInterface customers = (CustomersServiceInterface) ac.getBean("customersServiceImpl");
         //调用方法
         customers.findAll();
     }

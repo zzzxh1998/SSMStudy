@@ -9,22 +9,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringAOP" />
-        <module name="ssm-crud" />
         <module name="Mybatis_generator" />
         <module name="ssm_Thymeleaf" />
-        <module name="Spring-DI-Automatic_Injection" />
+        <module name="Mybatis_crud" />
         <module name="Spring-Artfiical" />
         <module name="Spring-AOP-All" />
-        <module name="spring-bean_get" />
-        <module name="ssm_Demo" />
         <module name="Spring-DI-setter" />
         <module name="ssm" />
+        <module name="SSM_mybatis" />
+        <module name="SpringAOP" />
+        <module name="Spring-DI-Automatic_Injection" />
+        <module name="spring-bean_get" />
+        <module name="ssm_Demo" />
         <module name="Spring-DI-constructor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Spring-AOP" target="1.5" />
+      <module name="ssm-crud" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

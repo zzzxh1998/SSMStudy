@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service("accountService")
+@Service("customersServiceImpl")
 public class CustomersServiceImpl implements CustomersServiceInterface {
     @Autowired
     private CustomersDaoInterface daoInterface;
