@@ -5,6 +5,7 @@
       <directory url="file://$PROJECT_DIR$/Spring-Automatically/Spring-Automatically/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -16,17 +17,20 @@
         <module name="Spring-AOP-All" />
         <module name="Spring-DI-setter" />
         <module name="ssm" />
+        <module name="Spring_Mybatis_NoAnnotation (1)" />
         <module name="SSM_mybatis" />
         <module name="SpringAOP" />
         <module name="Spring-DI-Automatic_Injection" />
         <module name="spring-bean_get" />
         <module name="ssm_Demo" />
+        <module name="Spring_Mybatis_NoAnnotation" />
         <module name="Spring-DI-constructor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Spring-AOP" target="1.5" />
       <module name="ssm-crud" target="1.5" />
+      <module name="SSM_mybatis_WithoutAnnotations" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

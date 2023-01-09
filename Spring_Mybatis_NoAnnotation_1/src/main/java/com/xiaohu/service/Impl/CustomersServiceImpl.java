@@ -8,11 +8,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service("customersServiceImpl")
+@Service("aaa")
 public class CustomersServiceImpl implements CustomersServiceInterface {
     @Autowired
     private CustomersDaoInterface daoInterface;
-
 
     @Override
     public List<Customers> findAll() {

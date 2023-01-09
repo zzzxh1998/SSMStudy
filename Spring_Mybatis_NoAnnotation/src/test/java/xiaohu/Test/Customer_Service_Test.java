@@ -1,10 +1,11 @@
-package com.xiaohu.Test;
+package xiaohu.Test;
 
 import com.xiaohu.entity.Customers;
 import com.xiaohu.service.CustomersServiceInterface;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 
 import java.util.List;
 

@@ -12,6 +12,5 @@ import java.util.List;
 @Repository
 public interface CustomersDaoInterface {
     //查询所有
-    @Select("select * from customers")
     public List<Customers> findAll();
 }
