@@ -15,8 +15,10 @@
         <module name="Mybatis_crud" />
         <module name="Spring-Artfiical" />
         <module name="Spring-AOP-All" />
+        <module name="Spring_Mybatis_XML_1" />
         <module name="Spring-DI-setter" />
         <module name="ssm" />
+        <module name="Spring_Mybatis_NoAnnotation_3" />
         <module name="SpringAOP" />
         <module name="Spring_Mybatis_Mapper_Annotations" />
         <module name="Spring-DI-Automatic_Injection" />
@@ -31,7 +33,8 @@
       <module name="Spring_Mybatis_NoAnnotation" target="1.8" />
       <module name="Spring_Mybatis_NoAnnotation (1)" target="1.8" />
       <module name="Spring_Mybatis_XML" target="1.8" />
-      <module name="ssm-crud" target="1.5" />
+      <module name="Spring_Mybatis_XML_!" target="1.8" />
+      <module name="ssm-crud" target="1.8" />
       <module name="SSM_mybatis" target="1.8" />
       <module name="SSM_mybatis_WithoutAnnotations" target="1.8" />
     </bytecodeTargetLevel>
