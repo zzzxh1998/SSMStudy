@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringStudy.iml" filepath="$PROJECT_DIR$/.idea/SpringStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Mybatis_XML.iml" filepath="$PROJECT_DIR$/Spring_Mybatis_XML.iml" />
     </modules>
   </component>
 </project>

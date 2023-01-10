@@ -2,6 +2,7 @@ package cn.itcast.service.impl;
 
 import cn.itcast.dao.AccountDao;
 import cn.itcast.domain.Account;
+import cn.itcast.domain.Customers;
 import cn.itcast.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,7 +15,7 @@ public class AccountServiceImpl implements AccountService{
     @Autowired
     private AccountDao accountDao;
 
-    public List<Account> findAll() {
+    public List<Customers> findAll() {
         System.out.println("业务层：查询所有账户...");
         return accountDao.findAll();
     }

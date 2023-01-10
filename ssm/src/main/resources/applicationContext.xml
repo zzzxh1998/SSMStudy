@@ -22,10 +22,10 @@
     <!--Spring整合MyBatis框架-->
     <!--配置连接池-->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
-        <property name="jdbcUrl" value="jdbc:mysql:///ssm"/>
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql:///mysql_official_example_database"/>
         <property name="user" value="root"/>
-        <property name="password" value="root"/>
+        <property name="password" value="1998"/>
     </bean>
 
     <!--配置SqlSessionFactory工厂-->

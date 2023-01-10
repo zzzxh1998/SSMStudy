@@ -18,6 +18,7 @@
         <module name="Spring-DI-setter" />
         <module name="ssm" />
         <module name="SpringAOP" />
+        <module name="Spring_Mybatis_Mapper_Annotations" />
         <module name="Spring-DI-Automatic_Injection" />
         <module name="ssm_Demo" />
         <module name="Spring-DI-constructor" />
@@ -29,6 +30,7 @@
       <module name="spring-bean_get" target="1.8" />
       <module name="Spring_Mybatis_NoAnnotation" target="1.8" />
       <module name="Spring_Mybatis_NoAnnotation (1)" target="1.8" />
+      <module name="Spring_Mybatis_XML" target="1.8" />
       <module name="ssm-crud" target="1.5" />
       <module name="SSM_mybatis" target="1.8" />
       <module name="SSM_mybatis_WithoutAnnotations" target="1.8" />
