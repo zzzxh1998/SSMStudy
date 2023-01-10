@@ -19,9 +19,9 @@
         <module name="ssm" />
         <module name="SpringAOP" />
         <module name="Spring-DI-Automatic_Injection" />
-        <module name="Spring_Mybatis" />
         <module name="ssm_Demo" />
         <module name="Spring-DI-constructor" />
+        <module name="Spring_Mybatis_XML" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
