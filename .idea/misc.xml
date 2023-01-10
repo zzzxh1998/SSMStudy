@@ -3,10 +3,10 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Mybatis_generator" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Mybatis/SSM_mybatis" />
     <file type="web" url="file://$PROJECT_DIR$/ssm" />
     <file type="web" url="file://$PROJECT_DIR$/ssm-crud" />
     <file type="web" url="file://$PROJECT_DIR$/ssm_Demo" />
-    <file type="web" url="file://$PROJECT_DIR$/SSM_mybatis" />
     <file type="web" url="file://$PROJECT_DIR$/SSM_mybatis_WithoutAnnotations" />
     <file type="web" url="file://$PROJECT_DIR$/ssm_Thymeleaf" />
   </component>
@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/SSM_mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_Mybatis_NoAnnotation/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_Mybatis_NoAnnotation_1/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Mybatis/pom.xml" />
       </list>
     </option>
   </component>

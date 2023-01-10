@@ -22,6 +22,7 @@
         <module name="SpringAOP" />
         <module name="Spring-DI-Automatic_Injection" />
         <module name="spring-bean_get" />
+        <module name="Spring_Mybatis" />
         <module name="ssm_Demo" />
         <module name="Spring_Mybatis_NoAnnotation" />
         <module name="Spring-DI-constructor" />
