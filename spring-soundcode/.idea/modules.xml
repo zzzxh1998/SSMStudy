@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/spring-bean_get/spring-bean_get.iml" filepath="$PROJECT_DIR$/spring-bean_get/spring-bean_get.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/spring-soundcode.iml" filepath="$PROJECT_DIR$/.idea/spring-soundcode.iml" />
-    </modules>
-  </component>
-</project>
