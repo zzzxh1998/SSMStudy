@@ -19,5 +19,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.0.20.RELEASE" level="project" />
   </component>
 </module>

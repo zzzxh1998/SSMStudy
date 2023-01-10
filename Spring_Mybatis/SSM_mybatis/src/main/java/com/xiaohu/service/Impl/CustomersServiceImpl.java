@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service("customersServiceImpl")
+@Service
 public class CustomersServiceImpl implements CustomersServiceInterface {
     @Autowired
     private CustomersDaoInterface daoInterface;
@@ -17,7 +17,6 @@ public class CustomersServiceImpl implements CustomersServiceInterface {
     @Override
     public List<Customers> findAll() {
         System.out.println("执行查询所有方法");
-        System.out.println("1111");
         return daoInterface.findAll();
     }
 }
