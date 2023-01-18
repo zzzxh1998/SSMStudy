@@ -2,6 +2,7 @@ package com.xiaohu;
 
 import com.xiaohu.dao.CustomersDaoInterface;
 import com.xiaohu.entity.Customers;
+import com.xiaohu.service.CustomersServiceInterface;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import org.junit.Test;
@@ -17,9 +18,9 @@ public class Test1{
 
     @Test
     public void FindAll(){
-        ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
-        CustomersDaoInterface customersDaoInterface = (CustomersDaoInterface) ac.getBean("customersServiceImpl");
-        List<Customers> all = customersDaoInterface.findAll();
+        ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
+        CustomersServiceInterface customersServiceInterface = (CustomersServiceInterface) ac.getBean("customersServiceImpl");
+        List<Customers> all = customersServiceInterface.findAll();
         System.out.println(all);
     }
 }

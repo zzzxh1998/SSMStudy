@@ -11,5 +11,5 @@ public interface CustomersDaoInterface {
 
     //查询所有
     @Select("select * from customers")
-    List<Customers> findAll();
+    public List<Customers> findAll();
 }

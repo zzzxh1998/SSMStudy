@@ -15,7 +15,7 @@ public class TestSpring {
         // 加载配置文件
         ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
         // 获取对象
-        AccountService as = (AccountService) ac.getBean("accountService");
+        AccountService as = (AccountService) ac.getBean("accountServiceImpl");
         // 调用方法
         List<Customers> all = as.findAll();
         System.out.println(all);

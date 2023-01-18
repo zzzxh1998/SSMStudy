@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SSM_mybatis/SSM_mybatis.iml" filepath="$PROJECT_DIR$/SSM_mybatis/SSM_mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringStudy.iml" filepath="$PROJECT_DIR$/.idea/SpringStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Mybatis_NoAnnotation/Spring_Mybatis_NoAnnotation (1).iml" filepath="$PROJECT_DIR$/Spring_Mybatis_NoAnnotation/Spring_Mybatis_NoAnnotation (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Mybatis_NoAnnotation_1/Spring_Mybatis_NoAnnotation (2).iml" filepath="$PROJECT_DIR$/Spring_Mybatis_NoAnnotation_1/Spring_Mybatis_NoAnnotation (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Mybatis_XML.iml" filepath="$PROJECT_DIR$/Spring_Mybatis_XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-soundcode/spring-bean_get/spring-bean_get.iml" filepath="$PROJECT_DIR$/spring-soundcode/spring-bean_get/spring-bean_get.iml" />
     </modules>
   </component>
 </project>
