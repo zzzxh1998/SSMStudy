@@ -30,7 +30,6 @@
       <module name="spring-bean_get" target="1.8" />
       <module name="Spring_Mybatis_NoAnnotation" target="1.8" />
       <module name="Spring_Mybatis_NoAnnotation (1)" target="1.8" />
-      <module name="Spring_Mybatis_XML" target="1.8" />
       <module name="ssm-crud" target="1.5" />
       <module name="SSM_mybatis" target="1.8" />
       <module name="SSM_mybatis_WithoutAnnotations" target="1.8" />
