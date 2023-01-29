@@ -23,12 +23,16 @@
     <file url="file://$PROJECT_DIR$/Spring-DI-setter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringAOP/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringAOP/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_Bean_Annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_Bean_Annotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring_Mybatis/SSM_mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring_Mybatis/SSM_mybatis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring_Mybatis/Spring_Mybatis_NoAnnotation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring_Mybatis/Spring_Mybatis_NoAnnotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring_Mybatis/Spring_Mybatis_NoAnnotation_1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring_Mybatis/Spring_Mybatis_NoAnnotation_1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_Mybatis_Annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_Mybatis_Annotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring_Mybatis_Mapper_Annotations/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring_Mybatis_Mapper_Annotations/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring_Mybatis_NoAnnotation_3/src/main/java" charset="UTF-8" />

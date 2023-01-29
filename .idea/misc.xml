@@ -36,6 +36,9 @@
         <option value="$PROJECT_DIR$/Spring_Mybatis_Mapper_Annotations/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_Mybatis_NoAnnotation_3/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_Mybatis_1/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Bean_Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Mybatis_Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Mybatis_XML/pom.xml" />
       </list>
     </option>
   </component>
