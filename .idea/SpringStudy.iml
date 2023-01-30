@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Spring_Mybatis_XML/SSM_mybatis/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Spring_Mybatis_XML/SSM_mybatis/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/Comments" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Spring+Mybatis的配置文件集" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

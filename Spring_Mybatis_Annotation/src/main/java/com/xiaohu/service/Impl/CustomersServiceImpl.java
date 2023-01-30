@@ -1,62 +1,44 @@
 package com.xiaohu.service.Impl;
 
+import com.xiaohu.dao.CustomersDao;
 import com.xiaohu.entity.Customers;
 import com.xiaohu.service.CustomersService;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.sql.SQLException;
 import java.util.List;
 
+@Service("customersService")
 public class CustomersServiceImpl implements CustomersService {
 
-    private QueryRunner queryRunner;
+    @Autowired
+    private CustomersDao customersDao;
 
-    public void setQueryRunner(QueryRunner queryRunner) {
-        this.queryRunner = queryRunner;
+    public void setCustomersDao(CustomersDao customersDao) {
+        this.customersDao = customersDao;
     }
 
     public List<Customers> findCustomers() {
-        try{
-            return queryRunner.query("select * from customers",new BeanListHandler<Customers>(Customers.class));
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+       return customersDao.findCustomers();
     }
 
     public Customers findCustomersById(Integer customerNumber) {
-        try{
-            return queryRunner.query("select * from customers",new BeanHandler<Customers>(Customers.class),customerNumber);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+        return customersDao.findCustomersById(customerNumber);
     }
 
     public void saveCustomers(Customers customers) {
-        try{
-            queryRunner.update("insert into customers(customerNumber,customerName,contactLastName," +
-                    "contactFirstName,phone,addressLine1,addressLine2,city,state,postalCode,country,salesRepEmployeeNumber,creditLimie)" +
-                    " values (?,?,?,?,?,?,?,?,?,?,?,?,?)",customers.getCustomernumber());
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+        customersDao.saveCustomers(customers);
     }
 
     public void updateCustomers(Customers customers) {
-        try{
-            queryRunner.update("update customers set customerName=? , contactLastName=? , phone=? where customerNumber = ?",
-                    customers.getCustomername(),customers.getContactlastname(),customers.getPhone(),customers.getCustomernumber());
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+        customersDao.updateCustomers(customers);
     }
 
     public void deleteCustomers(Integer customerNumber) {
-        try{
-            queryRunner.update("delete from customers where customerNumber = ?",customerNumber);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+        customersDao.deleteCustomers(customerNumber);
     }
 }
