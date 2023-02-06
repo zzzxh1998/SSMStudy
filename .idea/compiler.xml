@@ -11,6 +11,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Mybatis_generator" />
+        <module name="SpringMVC_Start" />
         <module name="Spring_Bean_Annotation" />
         <module name="ssm_Thymeleaf" />
         <module name="Mybatis_crud" />
@@ -18,6 +19,7 @@
         <module name="Spring-AOP-All" />
         <module name="Spring_Mybatis_XML_1" />
         <module name="Spring_Mybatis_Annotation" />
+        <module name="SpringMVC_Start_1" />
         <module name="Spring-DI-setter" />
         <module name="ssm" />
         <module name="Spring_Mybatis_NoAnnotation_3" />
@@ -35,7 +37,6 @@
       <module name="spring-bean_get" target="1.8" />
       <module name="Spring_Mybatis_NoAnnotation" target="1.8" />
       <module name="Spring_Mybatis_NoAnnotation (1)" target="1.8" />
-      <module name="Spring_Mybatis_XML" target="1.8" />
       <module name="Spring_Mybatis_XML_!" target="1.8" />
       <module name="ssm-crud" target="1.8" />
       <module name="SSM_mybatis" target="1.8" />

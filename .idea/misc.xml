@@ -4,6 +4,8 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Mybatis_generator" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_Mybatis/SSM_mybatis" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_Start" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_Start_1" />
     <file type="web" url="file://$PROJECT_DIR$/ssm" />
     <file type="web" url="file://$PROJECT_DIR$/ssm-crud" />
     <file type="web" url="file://$PROJECT_DIR$/ssm_Demo" />
@@ -39,6 +41,8 @@
         <option value="$PROJECT_DIR$/Spring_Bean_Annotation/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_Mybatis_Annotation/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_Mybatis_XML/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_Start/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_Start_1/pom.xml" />
       </list>
     </option>
   </component>
